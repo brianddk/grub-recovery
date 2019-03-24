@@ -1,6 +1,6 @@
 # grub-recovery
 
-Scripts that play with creating grub-recovery images.  These scripts assume your running out of the ARCH Linux ISO
+Scripts that play with creating grub-recovery images.  These scripts assume your running out of the ARCH Linux ISO.  You can boot these images using the generic "Mac OS X (64 bit)" machine with VirtualBox.
 
 # mkgrub
 
@@ -32,3 +32,21 @@ Example:
         "--allow-floppy"                      \
         "--install-modules=acpi boot cat chain"
 ```
+
+# Testing Images
+
+To test these images, the easiest way, is to use VirtualBox (version 6.0).
+
+1. Create a new "Mac OS X (64 bit)"
+2. Do not use a virtual disk
+3. Create
+4. Edit (settings)
+5. Storage
+6. Add Floppy Controller
+7. Add USB USB Controller
+8. `VBoxManage convertfromraw mbrhd4m.img mbrhd4m.vhd --format VHD --variant fixed`
+9. Attach either the floppy `.img` or the HD `.vhd` file
+10. Boot VM
+
+Note that fixed-type VHDs will operate exactly like raw images.  A fixed VHD is just a raw image with one sector of meta data tacked to the end.
+
