@@ -1,6 +1,6 @@
 # grub-recovery
 
-Scripts that play with creating grub-recovery images.
+Scripts that play with creating grub-recovery images.  These scripts assume your running out of the ARCH Linux ISO
 
 # mkgrub
 
