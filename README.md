@@ -48,5 +48,5 @@ To test these images, the easiest way, is to use VirtualBox (version 6.0).
 9. Attach either the floppy `.img` or the HD `.vhd` file
 10. Boot VM
 
-Note that fixed-type VHDs will operate exactly like raw images.  A fixed VHD is just a raw image with one sector of meta data tacked to the end.
+Note that fixed-type VHDs will operate exactly like raw images.  A fixed VHD is just a raw image with one sector of meta data tacked to the end.  Also note that the 1.68 MB and 2.88 MB images don't work with VirtualBox, but will likely still work on physical HW.
 
