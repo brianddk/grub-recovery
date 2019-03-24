@@ -1,6 +1,6 @@
 # grub-recovery
 
-Scripts that play with creating grub-recovery images.  These scripts assume your running out of the ARCH Linux ISO.  You can boot these images using the generic "Mac OS X (64 bit)" machine with VirtualBox.
+Scripts that play with creating grub-recovery images.  These scripts assume your running out of the ARCH Linux ISO.  You can boot the resultant images using the generic "Mac OS X (64 bit)" machine with VirtualBox.
 
 # mkgrub
 
